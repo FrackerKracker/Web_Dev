@@ -1,0 +1,85 @@
+/*defining the global variables*/
+
+:root{
+    --primaryColor:#EA5455;
+    --backgroundColor:#FFF4E0;
+    --myTitleFont:'Dancing Script', cursive;
+    --titleFont:'Sacramento', cursive;
+    --fontDefaultText: 'Lato', sans-serif;
+    --fontDefaultHeading:'Montserrat', sans-serif;
+}
+
+/*main css*/
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+}
+
+.top-section{
+    color: var(--primaryColor);
+    background-color: var(--backgroundColor);
+    /* height:400px; */
+    padding-top: 100px;
+    text-align: center;
+}
+
+.heading{
+    font-family: var(--titleFont);
+    font-size: 5rem;
+    margin: 0;
+}
+
+h2{
+    font-family: var(--fontDefaultHeading);
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 2.25em; /*1 em = 16px*/
+}
+
+.top-cloud{
+    position:absolute;
+    margin-block-start: -40px;
+    margin-left: 350px;
+    width:100px;
+}
+
+.bottom-cloud{
+    position:absolute;
+    margin-block-start: 50px;
+    margin-left: -200px;
+    width:100px;
+}
+
+.mountain{
+    width:400px;
+}
+
+img{
+    margin-bottom: -5px;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 100px auto;
+}
+
+.middle-section{
+    margin: 100px auto 100px auto;
+    text-align: center;
+    width: 50% ;
+}
+
+.intro{
+    width: 55%;
+    margin: auto;
+    line-height: 25px;  
+}
