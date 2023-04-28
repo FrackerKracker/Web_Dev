@@ -1,8 +1,8 @@
 /*defining the global variables*/
 
 :root{
-    --primaryColor:#EA5455;
-    --backgroundColor:#FFF4E0;
+    --primaryColor:#66BFBF;
+    --backgroundColor:#E4F9F5;
     --myTitleFont:'Dancing Script', cursive;
     --titleFont:'Sacramento', cursive;
     --fontDefaultText: 'Lato', sans-serif;
@@ -12,8 +12,11 @@
 /*main css*/
 
 body{
+    font-family: var(--fontDefaultHeading);
     margin: 0px;
     color: var(--primaryColor);
+    line-height: 25px;
+    text-align: center;
 }
 
 .top-section{
@@ -31,11 +34,18 @@ body{
 }
 
 h2{
-    font-family: var(--fontDefaultHeading);
     font-weight: 900;
     margin: 0;
     padding-bottom: 20px;
     font-size: 2.25em; /*1 em = 16px*/
+}
+
+hr{
+    border:dotted 5px var(--backgroundColor);
+    border-bottom: none;
+    margin: 120px auto 120px auto;
+    width: 5%;
+
 }
 
 .top-cloud{
@@ -75,11 +85,74 @@ img{
 .middle-section{
     margin: 100px auto 100px auto;
     text-align: center;
-    width: 50% ;
+    width: 88% ;
 }
 
 .intro{
     width: 55%;
-    margin: auto;
-    line-height: 25px;  
+    margin: auto;  
+}
+
+.skill-image{
+
+    width: 150px;
+}
+
+.left{
+    float: left;
+    margin-right: 30px;
+}
+
+.right{
+    float: right;
+    margin-left: 30px;
+}
+
+.my-skills{
+    margin: 0px auto 100px auto;
+}
+
+.skills{
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.contact{
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    background-image: linear-gradient(to bottom, var(--primaryColor), #03C988);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.25em;
+    color:white;
+}
+
+.contact:hover{
+    background-color: #2051bd;;
+}
+
+.bspace{
+    padding-bottom: 20px;
+}
+
+.bottom-section{
+    background-color: #66BFBF;
+    padding: 50px 0px 20px;
+}
+
+.copyright{
+    color: white;
+    padding: 20px 0px;
+    font-size: 0.75rem;
+}
+
+.footer-links{
+    font-family: var(--fontDefaultHeading);
+    text-decoration: none;
+    margin: 10px 20px;
+    color: #205E61;
+}
+
+.footer-links:hover{
+    color: white;
 }
