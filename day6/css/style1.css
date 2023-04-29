@@ -128,7 +128,7 @@ img{
 }
 
 .contact:hover{
-    background-color: #2051bd;
+    background-image: linear-gradient(to bottom, var(--primaryColor), #e08925);
 }
 
 .bspace{
@@ -146,13 +146,17 @@ img{
     font-size: 0.75rem;
 }
 
-.footer-links{
+.social{
     font-family: var(--fontDefaultHeading);
     text-decoration: none;
     margin: 10px 20px;
     color: #205E61;
 }
 
-.footer-links:hover{
+.social:hover{
     color: white;
+}
+
+.social-container{
+    margin-bottom: 20px;
 }
